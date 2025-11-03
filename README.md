@@ -99,19 +99,8 @@ El diseño está optimizado para:
 - ✅ Glassmorphism effects
 - ✅ Paleta de colores de marca
 
-## 🚀 Despliegue
 
-### Vercel
-```bash
-npm install -g vercel
-vercel
-```
 
-### Netlify
-```bash
-npm install -g netlify-cli
-netlify deploy --prod
-```
 
 ### Variables de Entorno
 
