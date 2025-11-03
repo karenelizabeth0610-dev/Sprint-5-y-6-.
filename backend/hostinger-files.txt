@@ -1,0 +1,19 @@
+Archivos a subir a Hostinger en /public_html/api/muebleria-jota/:
+
+📁 Archivos principales:
+- server.js
+- package-production.json (renombrar a package.json)
+- .env.production (renombrar a .env)
+
+📁 Carpetas:
+- config/
+  └── db.js
+- models/
+  └── Product.js
+- routes/
+  └── productRoutes.js
+
+⚠️ NO subir:
+- node_modules/ (se instala automáticamente)
+- .git/
+- package-lock.json (se genera automáticamente)

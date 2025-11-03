@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: muebleria-jota-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        value: mongodb+srv://muebleria-admin:Caracolito2002@cluster0.cmahfcv.mongodb.net/muebleria-jota?retryWrites=true&w=majority
